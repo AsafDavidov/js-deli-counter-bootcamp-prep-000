@@ -10,8 +10,13 @@ function takeANumber(currentLine, name){
 
 function takeANumber2(currentLine, number){
   var placeInLine = currentLine.length + 1;
+  var timeWalkedIn = Js.Timestamp
   var outputString = "Welcome, " + number  +". You are number " + placeInLine + " in line.";
-  tiketNumber ++;
+  var numAndTime = {};
+  numAndTime[IdNumber] = number;
+  numAndTime[timeStamp] = TimewalkedIn;
+  
+  ticketNumber ++;
   currentLine.push(number);
   return outputString;
 }
