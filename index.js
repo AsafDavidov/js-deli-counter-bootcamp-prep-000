@@ -12,7 +12,7 @@ function takeANumber2(currentLine, number){
   var placeInLine = currentLine.length + 1;
   var outputString = "Welcome, " + number  +". You are number " + placeInLine + " in line.";
   tiketNumber ++;
-  currentLine.push(name);
+  currentLine.push(number);
   return outputString;
 }
 
