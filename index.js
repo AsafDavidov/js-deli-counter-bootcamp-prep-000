@@ -7,6 +7,13 @@ function takeANumber(currentLine, name){
   return outputString;
 }
 
+function takeANumber2(currentLine, name){
+  var placeInLine = currentLine.length + 1;
+  var outputString = "Welcome, " + name  +". You are number " + placeInLine + " in line.";
+  currentLine.push(name);
+  return outputString;
+}
+
 function nowServing(currentLine){
   var outputString;
   if (currentLine.length === 0){
