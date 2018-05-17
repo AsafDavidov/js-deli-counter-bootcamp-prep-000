@@ -1,5 +1,5 @@
 var katzDeli = [];
-
+var ticketNumber = 1;
 
 function takeANumber(currentLine, name){
   var placeInLine = currentLine.length + 1;
